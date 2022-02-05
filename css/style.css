@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200;300;400&family=Russo+One&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-size: 100%;
+    text-shadow: 1.5px 1.5px #000;
+    background-image:url("../images/background.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-logo{
+    height: 72px;
+}
+
+.header-nav-bar{
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-item{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.main{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+}
+
+.main-content-write{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 20%;
+}
+
+.main-content-title{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 32px;
+    color: aliceblue;
+}
+
+.main-content-caption{
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 18px;
+    color: aliceblue;  
+}
+
+.main-content-button{
+    background-color: #ECD6C4;
+    width: 140px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.main-content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+footer{
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-message{
+    padding: 40px 0;
+    color: aliceblue;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-size: 36px;
+}
